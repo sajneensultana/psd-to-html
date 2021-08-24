@@ -1,18 +1,6 @@
 @media(max-width: 768px){
-    .menu{
-		display: none;
-		background:rgb(92, 91, 91);
-		position:absolute;
-		top:50px;
-		left:60%;
+    
 	
-	
-    }
-	.menu ul{
-		display:block;
-		padding-left:0;
-		
-	}
 	
 
 		
@@ -21,4 +9,34 @@
         display: block;
 		
     }
+	.header-menu{
+		display:none;
+	}
+	.header-menu ul{
+		display:block;
+	}
+	.banner-text h1{
+		font-size:25px;
+	}
+	.banner-area button{
+        text-align: center;
+        margin: 5% 30%;
+	}
+	.member-info{
+        width: 25%;
+	}
 }
+@media(max-width: 576px){
+	.banner-text h1{
+		font-size:20px;
+	}
+	.banner-area button{
+        text-align: center;
+        margin: 5% 25%;
+	}
+	
+	
+	
+	
+}
+

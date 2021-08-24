@@ -12,6 +12,16 @@ header{
    
 	
 }
+.menu-icon{
+    width: 20px;
+    float: right;
+    display: none;
+    margin-top: 20px;
+    color: #fff;
+}
+.header-menu{
+    display: block;
+}
 .header-logo{
     
     width: 100%;
@@ -39,8 +49,8 @@ header{
     }
     .banner-area{}
     .banner-text{
-        text-align: center;
-        padding:10% 25% 2% 15%;
+        width:50%;
+		margin:0 auto
     }
     .banner-text h1{
         color: #fff;
@@ -187,17 +197,16 @@ header{
 
         }
         .footer-top span{
-            padding: 0 40px;
             color: grey;
         }
         .footer-top img{
-            width: 6%;
+            width: 7%;
             margin: 0 auto;
         }
         .footer-top .ember1-icon{
             padding:8px;
             
-            width:8%;
+            width:9%;
         }
         .footer-bottom{
             background: #313454;
