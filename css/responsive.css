@@ -12,9 +12,20 @@
 	.header-menu{
 		display:none;
 	}
+	
 	.header-menu ul{
+		background:rgba(172, 171, 171, .7);
 		display:block;
+		position: absolute;
+		top:40px;
+		right: 0;
+	
 	}
+	.header-menu ul li {
+        padding:  10px 10px;
+    }
+	
+
 	.banner-text h1{
 		font-size:25px;
 	}
